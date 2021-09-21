@@ -1,0 +1,296 @@
+.header-sec{
+    background: #f6f9fc;
+    padding: 50px 0;
+}
+.header-text{}
+.header-text p {
+    font-size: 11px;
+    color: #6688ef;
+    font-family: 'Spartan', sans-serif;
+    font-weight: 600;
+}
+.header-text h2 {
+    font-size: 25px;
+    font-family: 'Spartan', sans-serif;
+    font-weight: 700;
+    margin-bottom: 35px;
+    display: inline-block;
+    position: relative;
+}
+.header-text h2::after {
+    content: "";
+    position: absolute;
+    top: 40px;
+    left: 92px;
+    width: 40px;
+    height: 2px;
+    background: #6688ef;
+}
+.header-text h6 {
+    font-family: 'Spartan', sans-serif;
+    font-size: 11.3px;
+    line-height: 16px;
+    font-weight: 600;
+    color: #969aa3;
+    margin-bottom: 70px;
+}
+.pricing-list{
+    transition: .5s;
+}
+
+.pricing-list h5 {
+    font-family: 'Spartan', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 32.5px;
+    transition: .4s;
+}
+.pricing-list h2 {
+    margin-bottom: 105px;
+    display: inline-block;
+    transition: .4s;
+    font-weight: 600;
+    font-family: 'Spartan', sans-serif;
+    font-size: 33px;
+    position: relative;
+}
+.pricing-list h6 {
+    position: relative;
+    top: -95px;
+    left: 0;
+    font-size: 12px;
+    font-family: 'Spartan', sans-serif;
+    color: #fff;
+    font-weight: 500;
+}
+.pricing-list h2::after {
+    content: "";
+    position: absolute;
+    top: 103px;
+    left: -49px;
+    width: 158px;
+    height: 2px;
+    background: #ebecf0;
+}
+.pricing-list p {
+    font-size: 14px;
+    transition: .4s;
+    font-weight: 500;
+    font-family: 'Spartan', sans-serif;
+    color: #a5a8b1;
+}
+.pricing-list a {
+    font-family: 'Spartan', sans-serif;
+    font-size: 13px;
+    padding: 8px 18px;
+    margin-top: 15px;
+    position: relative;
+    border-radius: 50rem;
+    z-index: 1;
+    transition: .4s;
+    font-weight: 500;
+    line-height: 18px;
+}
+.pricing-list a::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #3065e6;
+    height: 100%;
+    width: 0;
+    border-radius: 18px; 
+    transition: .4s;
+    z-index: -1;
+}
+.pricing-list a:hover::before{
+    width: 100%;
+    color: #fff;
+}
+.pricing-sec{
+    transition: .4s;
+    border: 1px solid #fff;
+}
+.pricing-sec:hover{
+    background: #3065e6;
+    cursor: pointer;
+}
+.pricing-sec:hover h2{
+    color: #fff;
+}
+.pricing-sec:hover p{
+    color: #fff;
+}
+.pricing-sec:hover h5{
+    color: #fff;
+}
+.pricing-sec:hover a{
+    background: #fff;
+    color: #3065e6;
+}
+.pricing-sec a:hover{
+    color: #fff;
+}
+.banner-div{
+    background: url(./img/free-bg.jpg);
+    background-size: cover !important;
+    background-repeat: no-repeat;
+    padding: 108px 0;
+    position: relative;
+    z-index: 1;
+}
+.banner-div::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    background: rgba(50, 89, 208, .85);
+    z-index: -1;
+}
+.banner-div h5 {
+    font-family: 'Spartan', sans-serif;
+    color: #fff;
+    margin-bottom: 24px;
+    font-size: 13px;
+    font-weight: 500;
+}
+.banner-div h2 {
+    font-family: 'Spartan', sans-serif;
+    color: #fff;
+    font-size: 27px;
+    font-weight: 700;
+    letter-spacing: 0px;
+    line-height: 35px;
+    display: inline-block;
+    margin-bottom: 55px;
+    position: relative;
+}
+.banner-div h2::after {
+    content: "";
+    position: absolute;
+    top: 86px;
+    right: 191px;
+    background: #ffffff;
+    height: 2px;
+    width: 50px;
+    border-radius: 18px;
+    transition: .4s;
+}
+.banner-div p {
+    font-family: 'Spartan', sans-serif;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+}
+.banner-div a{
+    font-family: 'Spartan', sans-serif;
+    font-size: 13px;
+    padding: 8px 25px;
+    margin-top: 15px;
+    position: relative;
+    border-radius: 50rem;
+    z-index: 1;
+    transition: .4s;
+    font-weight: 600;
+    line-height: 25px;
+    background: #Fff;
+    color: #2e82ff;
+    border: 2px solid #ddd !important;
+}
+.banner-div a::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #3163e9;
+    height: 100%;
+    width: 0;
+    border-radius: 18px; 
+    transition: .4s;
+    z-index: -1;
+}
+.banner-div a:hover::before{
+    width: 100%;
+    color: #fff;
+}
+.email-newsletter{
+    background: #3763eb;
+    padding-bottom: 37px;
+    margin-top: 65px;
+    border-radius: 5px;
+    margin-bottom: 65px;
+}
+.email-newsletter h2 {
+    font-size: 21px;
+    color: #fff;
+    padding-left: 37px;
+    padding-top: 36px;
+    padding-bottom: 6px;
+    font-family: 'Spartan', sans-serif;
+    font-weight: 600;
+}
+.email-newsletter p{
+    font-family: 'Spartan', sans-serif;
+    color: #fff;
+    padding-left: 37px;
+    font-size: 14px;
+}
+.email-newsletter form{
+    padding-left: 35px;
+}
+.email-form {
+    font-size: 14px;
+    padding-top: 3px;
+    padding-bottom: 2px;
+    padding-right: 68px;
+    padding-left: 10px;
+    font-family: 'Spartan', sans-serif;
+    border-radius: 79px;
+    outline: none;
+    border: 2px solid #fff;
+}
+.email-newsletter form a{
+    background: #3763eb;
+    border: 2px solid #ddd;
+    color: #ffffff;
+    padding-top: 2px;
+    padding-bottom: 3px;
+    padding-right: 7px;
+    padding-left: 7px;
+    border-radius: 79px;
+    margin-left: 29px;
+}
+.footer-design{
+    background: #f8f9fa;
+}
+.massive{
+    background: #fff;
+    margin-top: 65px;
+    padding-bottom: 33px;
+    border-radius: 5px;
+    margin-bottom: 100px;
+}
+.massive h4 {
+    color: #374a59;
+    font-size: 19px;
+    font-family: 'Spartan', sans-serif;
+    font-weight: 600;
+    line-height: 24px;
+    padding-left: 36px;
+    padding-top: 25px;
+}
+.massive span{
+    padding-left: 36px;
+}
+.massive a{
+    background: #0d6efd;
+    padding: 3px 7px;
+    color: #ffffff;
+    font-weight: 500;
+    border-radius: 31px;
+    font-family: 'Spartan', sans-serif;
+    font-size: 14px;
+    margin-top: 60px;
+}
